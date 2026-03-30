@@ -1,0 +1,18 @@
+{
+  "name": "karaoke-ai",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Windows-first karaoke desktop app with local AI processing.",
+  "workspaces": [
+    "desktop"
+  ],
+  "devDependencies": {
+    "electron": "34.1.1"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace desktop",
+    "build": "npm run build --workspace desktop",
+    "build:processor": "powershell -ExecutionPolicy Bypass -File .\\processor\\build_windows_bundle.ps1 -OutputDir .\\desktop\\resources\\processor",
+    "package": "npm run dist --workspace desktop"
+  }
+}

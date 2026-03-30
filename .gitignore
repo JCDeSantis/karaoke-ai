@@ -1,0 +1,34 @@
+node_modules/
+dist/
+out/
+release/
+.vite/
+coverage/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Local app data and logs
+.codex/
+tmp/
+logs/
+*.log
+
+# Python processor models and caches
+models/
+artifacts/
+
+# Local processor packaging output
+desktop/resources/processor/
+processor/.pyinstaller/
+
+# Local scratch folders
+tmp-processor-test/
+tmp-separation-test/
