@@ -30,6 +30,7 @@
   "build": {
     "appId": "com.karaokeai.app",
     "productName": "KaraokeAI",
+    "beforeBuild": "./electron-builder.before-build.cjs",
     "files": [
       "dist/**/*",
       "package.json"
@@ -56,6 +57,7 @@
         }
       ]
     },
+    "npmRebuild": false,
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
