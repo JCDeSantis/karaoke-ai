@@ -55,7 +55,7 @@ That command:
 The repository includes a Windows release workflow at `.github/workflows/release-windows.yml`.
 
 - `workflow_dispatch` builds and uploads installer artifacts
-- pushing a tag like `v0.1.0` also creates a GitHub Release and attaches the installer
+- pushing a tag like `v0.1.1` also creates a GitHub Release and attaches the installer
 
 ## Local data
 

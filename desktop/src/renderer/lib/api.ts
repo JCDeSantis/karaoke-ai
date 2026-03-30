@@ -65,7 +65,7 @@ const emptyApi: KaraokeApi = {
   },
   async getAppStatus(): Promise<AppStatus> {
     return {
-      appVersion: "0.1.0",
+      appVersion: "0.1.1",
       baseDir: "",
       dbPath: "",
       songsDir: "",
